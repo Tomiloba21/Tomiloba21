@@ -2,7 +2,8 @@
 - 👀 I’m aspiring to be a full stack developer
 - 🌱 I’m currently learning ...python
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...olowo15tomiloba@gmail.com
+- 📫 How to reach me ...ayoloba8@gmail.com
+- 
 
 <!---
 Tomiloba21/Tomiloba21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
