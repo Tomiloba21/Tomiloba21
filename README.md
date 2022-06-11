@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @Tomiloba21
-- 👀 I’m aspiring to be a full stack developer
-- 🌱 I’m currently learning ...python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...ayoloba8@gmail.com
+- 👀 I am a full stack developer
+- 🌱 python Lover
+-  📫 How to reach me ...ayoloba8@gmail.com
 - 
 
 <!---
