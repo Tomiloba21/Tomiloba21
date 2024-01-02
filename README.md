@@ -28,7 +28,7 @@ I'm currently pursuing a degree in Computer Science, which continuously enhances
 
 Feel free to connect or reach out for collaboration opportunities! Let's innovate and build something awesome together. 😊
 
-#Reach Me 💻
+###Reach Me 💻
 
 ayoloba8@gmail.com
 
