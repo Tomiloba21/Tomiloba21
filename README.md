@@ -1,7 +1,7 @@
 
 
 
-# Hi there, I'm [Tomiloba]! 👋
+# Hi there, I'm Tomiloba! 👋
 
 I'm a passionate backend developer and a computer science student with a knack for creating robust solutions. My skills revolve around:
 
@@ -30,7 +30,7 @@ Feel free to connect or reach out for collaboration opportunities! Let's innovat
 
 ###Reach Me 💻
 
-ayoloba8@gmail.com
+**ayoloba8@gmail.com**
 
 
 
