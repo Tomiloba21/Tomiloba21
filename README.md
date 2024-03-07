@@ -4,7 +4,7 @@
 I'm a passionate backend developer and a computer science student with a knack for creating robust solutions. My skills revolve around:
 
 - **Languages:** Java, JavaScript (Node.js)
-- **Currently Exploring:** JavaFX and Java for Android development
+- **Currently Exploring:** JavaFX , Spring and Java for Android development
 
 ## About Me
 
