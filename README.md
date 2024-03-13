@@ -13,13 +13,15 @@ I thrive on turning complex problems into elegant, efficient, and scalable solut
 ### 🌱 Current Focus
 
 I'm currently delving deeper into JavaFX to create engaging user interfaces and mastering Java for Android app development. Constant learning keeps me fueled and excited about the ever-evolving tech world.
-
 ### 💻 Tech Stack
 
 - **Languages:** [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
   [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - **Frameworks:** [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+  [![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
+- **Persistence:** [![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
 - **Learning:** JavaFX, Android development with Java
+
 
 ### 📚 Education
 
