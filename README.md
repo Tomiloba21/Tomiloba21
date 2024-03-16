@@ -29,6 +29,9 @@ I'm currently pursuing a degree in Computer Science, which continuously enhances
 
 ### 🤝 Let's Connect
 
+
+
+
 Feel free to connect with me on:
 <!--
 
@@ -39,8 +42,16 @@ Feel free to connect with me on:
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@lobz03)
 
 
+
+
+
+
+
 Feel free to reach out for collaboration opportunities! Let's innovate and build something awesome together. 😊
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tomiloba21&show_icons=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Tomiloba21)
 
 
 
