@@ -42,6 +42,7 @@ Feel free to connect with me on:
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@lobz03)
 
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tomiloba21&layout=compact)
 
 
 
