@@ -20,7 +20,7 @@ I'm currently delving deeper into JavaFX to create engaging user interfaces and 
 - **Frameworks:** 
   [![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
 - **Persistence:** [![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
-- **Learning:** JavaFX, Android development with Java
+- **Learning:** JavaFX, Spring, Android development with Java
 
 
 ### 📚 Education
