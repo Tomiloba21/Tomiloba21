@@ -45,6 +45,7 @@ Feel free to connect with me on:
 
 Feel free to reach out for collaboration opportunities! Let's innovate and build something awesome together. 😊
 
+<!--
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tomiloba21&show_icons=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Tomiloba21)
