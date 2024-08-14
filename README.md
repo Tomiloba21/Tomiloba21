@@ -4,7 +4,7 @@
 I'm a passionate backend developer and a computer science student with a knack for creating robust solutions. My skills revolve around:
 
 - **Languages:** Java
-- **Currently Exploring:** JavaFX , Spring and Java for Android development
+- **Currently Exploring:**Spring and Java for Android development
 
 ## About Me
 
@@ -12,7 +12,7 @@ I thrive on turning complex problems into elegant, efficient, and scalable solut
 
 ### 🌱 Current Focus
 
-I'm currently delving deeper into JavaFX to create engaging user interfaces and mastering Java for Android app development. Constant learning keeps me fueled and excited about the ever-evolving tech world.
+I'm currently delving deeper into Springboot to create RESTAPIs and mastering Java for Android app development. Constant learning keeps me fueled and excited about the ever-evolving tech world.
 ### 💻 Tech Stack
 
 - **Languages:** [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
@@ -20,7 +20,7 @@ I'm currently delving deeper into JavaFX to create engaging user interfaces and 
 - **Frameworks:** 
   [![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/)
 - **Persistence:** [![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
-- **Learning:** JavaFX, Spring, Android development with Java
+- **Learning:**  Spring, Android development with Java
 
 
 ### 📚 Education
