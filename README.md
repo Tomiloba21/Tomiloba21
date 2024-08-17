@@ -4,7 +4,7 @@
 I'm a passionate backend developer  with a knack for creating robust solutions. My skills revolve around:
 
 - **Languages:** Java
-- **Currently** Exploring: Spring boot and Java for Android development
+- **Currently Exploring:** Spring boot and Java for Android development
 
 ## About Me
 
