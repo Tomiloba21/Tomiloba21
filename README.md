@@ -1,10 +1,10 @@
 
 # Hi there, I'm Tomiloba! 👋
 
-I'm a passionate backend developer and a computer science student with a knack for creating robust solutions. My skills revolve around:
+I'm a passionate backend developer  with a knack for creating robust solutions. My skills revolve around:
 
 - **Languages:** Java
-- **Currently Exploring:**Spring and Java for Android development
+- **Currently** Exploring:**Spring boot and Java for Android development
 
 ## About Me
 
@@ -22,10 +22,6 @@ I'm currently delving deeper into Springboot to create RESTAPIs and mastering Ja
 - **Persistence:** [![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
 - **Learning:**  Spring, Android development with Java
 
-
-### 📚 Education
-
-I'm currently pursuing a degree in Computer Science, which continuously enhances my problem-solving abilities and analytical thinking.
 
 ### 🤝 Let's Connect
 
