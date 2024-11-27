@@ -129,9 +129,9 @@ public class GitHubProfile {
         // First section
         sections.add(new ProfileSection(null, List.of(
                 new ProfileItem("OS", "Arch Linux"),
-                new ProfileItem("IDE", "Code OSS,IntelliJ, Vim"),
-                new ProfileItem("Languages", "Java, Python, JavaScript, TypeScript"),
-                new ProfileItem("Frameworks", "React, Express, Spring boot, Android Native")
+                new ProfileItem("IDE", "Code OSS,IntelliJ"),
+                new ProfileItem("Languages", "Java, Python,TypeScript"),
+                new ProfileItem("Frameworks", "Express, Spring boot, Android Native")
         )));
 
         // Profile section
@@ -154,13 +154,13 @@ public class GitHubProfile {
                                 data.optInt("total_private_repos") + " Private)"
                 ),
                 new ProfileItem("Joined", timeAgo(data.getString("created_at"))),
-                new ProfileItem("Contributions", "2087 (Aug 6, 2022 - Present)"),
-                new ProfileItem("Current Streak", "0 (Nov 7)"),
-                new ProfileItem("Longest Streak", "30 (Feb 4, 2023 - Mar 5, 2023)")
+                new ProfileItem("Contributions", "2087 (Aug 10, 2021 - Present)"),
+//                new ProfileItem("Current Streak", "0 (Nov 7)"),
+                new ProfileItem("Longest Streak", "24 (Mar 9th, 2024 - Mar 30, 2023)")
         )));
 
         return new UserData(
-                data.optString("login", "Judge-Paul"),
+                data.optString("login", "Tomiloba21"),
                 data.getString("avatar_url"),
                 sections
         );
