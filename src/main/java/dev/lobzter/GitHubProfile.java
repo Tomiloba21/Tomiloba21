@@ -154,7 +154,7 @@ public class GitHubProfile {
                                 data.optInt("total_private_repos") + " Private)"
                 ),
                 new ProfileItem("Joined", timeAgo(data.getString("created_at"))),
-                new ProfileItem("Contributions", "2087 (Aug 10, 2021 - Present)"),
+//                new ProfileItem("Contributions", "2087 (Aug 10, 2021 - Present)"),
 //                new ProfileItem("Current Streak", "0 (Nov 7)"),
                 new ProfileItem("Longest Streak", "24 (Mar 9th, 2024 - Mar 30, 2023)")
         )));
