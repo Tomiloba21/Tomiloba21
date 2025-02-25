@@ -231,6 +231,135 @@ public class GitHubProfile {
         Files.writeString(Paths.get("output/neofetch.svg"), svgContent);
     }
 
+    private static void writeIndexHtml() throws IOException {
+        String html = "<!DOCTYPE html>\n" +
+                "<html lang=\"en\">\n" +
+                "<head>\n" +
+                "    <meta charset=\"UTF-8\">\n" +
+                "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
+                "    <title>GitHub Profile</title>\n" +
+                "    <style>\n" +
+                "        body {\n" +
+                "            margin: 0;\n" +
+                "            padding: 0;\n" +
+                "            background-color: #0d1117;\n" +
+                "            color: #c9d1d9;\n" +
+                "            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif;\n" +
+                "            display: flex;\n" +
+                "            justify-content: center;\n" +
+                "            align-items: center;\n" +
+                "            min-height: 100vh;\n" +
+                "        }\n" +
+                "        \n" +
+                "        .container {\n" +
+                "            max-width: 95%;\n" +
+                "            padding: 20px;\n" +
+                "        }\n" +
+                "        \n" +
+                "        .svg-wrapper {\n" +
+                "            width= 100% ;\n"+
+                "            overflow: auto;\n" +
+                "            border-radius: 15px;\n" +
+                "            box-shadow: 0 8px 24px rgba(0,0,0,0.2);\n" +
+                "        }\n" +
+                "        \n" +
+                "        svg {\n" +
+                "            display: block;\n" +
+                "            max-width: 100%;\n" +
+                "            height: auto;\n" +
+                "        }\n" +
+                "        \n" +
+                "        h1 {\n" +
+                "            text-align: center;\n" +
+                "            margin-bottom: 1.5rem;\n" +
+                "            font-weight: 600;\n" +
+                "            color: #58a6ff;\n" +
+                "        }\n" +
+                "        \n" +
+                "        footer {\n" +
+                "            text-align: center;\n" +
+                "            margin-top: 2rem;\n" +
+                "            font-size: 0.9rem;\n" +
+                "            color: #8b949e;\n" +
+                "        }\n" +
+                "        \n" +
+                "        a {\n" +
+                "            color: #58a6ff;\n" +
+                "            text-decoration: none;\n" +
+                "        }\n" +
+                "        \n" +
+                "        a:hover {\n" +
+                "            text-decoration: underline;\n" +
+                "        }\n" +
+                "        \n" +
+                "        @media (max-width: 768px) {\n" +
+                "            .container {\n" +
+                "                padding: 10px;\n" +
+                "            }\n" +
+                "        }\n" +
+                "    </style>\n" +
+                "</head>\n" +
+                "<body>\n" +
+                "    <div class=\"container\">\n" +
+                "        <h1>GitHub Profile</h1>\n" +
+                "        <div class=\"svg-wrapper\">\n" +
+                "            <object data=\"./neofetch.svg\" type=\"image/svg+xml\" width=\"100%\"></object>\n" +
+                "        </div>\n" +
+                "        <footer>\n" +
+                "            Generated with <a href=\"https://github.com/Tomiloba21/Tomiloba21\">GitHub Profile Generator</a>\n" +
+                "        </footer>\n" +
+                "    </div>\n" +
+                "</body>\n" +
+                "</html>";
+
+        File outputDir = new File("output");
+        if (!outputDir.exists()) {
+            outputDir.mkdirs();
+        }
+        Files.writeString(Paths.get("output/index.html"), html);
+    }
+
+//    public static void main(String[] args) {
+//        try {
+//            UserData user = getUserData();
+//            System.out.println("Gotten user data");
+//
+//            String art = getAsciiArtFromImage(user.profilePicture);
+//            System.out.println("Gotten ASCII text from image");
+//
+//            String svgArt = generateSVGArt(art);
+//            System.out.println("Generated SVG Art section");
+//
+//            String svgText = generateSVGText(user);
+//            System.out.println("Generated SVG Text section");
+//
+//            String svg = String.format(
+//                    "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+//                            "<svg xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Andale Mono,AndaleMono,Consolas,monospace\" width=\"2500px\" height=\"1282px\" font-size=\"16px\">\n" +
+//                            "<style>\n" +
+//                            "    .keyColor {fill: #ffa657;}\n" +
+//                            "    .valueColor {fill: #a5d6ff;}\n" +
+//                            "    .addColor {fill: #3fb950;}\n" +
+//                            "    .delColor {fill: #f85149;}\n" +
+//                            "    .commentColor {fill: #8b949e;}\n" +
+//                            "    text, tspan {white-space: pre;}\n" +
+//                            "</style>\n" +
+//                            "\n" +
+//                            "<rect width=\"2500px\" height=\"1282px\" fill=\"#161b22\" rx=\"15\" />\n" +
+//                            "\n%s\n%s\n" +
+//                            "</svg>",
+//                    svgArt, svgText
+//            );
+//
+//            writeSVG(svg);
+//            System.out.println("Saved SVG to output/neofetch.svg");
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
+
     public static void main(String[] args) {
         try {
             UserData user = getUserData();
@@ -265,6 +394,10 @@ public class GitHubProfile {
 
             writeSVG(svg);
             System.out.println("Saved SVG to output/neofetch.svg");
+
+            // Write the index.html file
+            writeIndexHtml();
+            System.out.println("Saved index.html to output/index.html");
 
         } catch (Exception e) {
             e.printStackTrace();
