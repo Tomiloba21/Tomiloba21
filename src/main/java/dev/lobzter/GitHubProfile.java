@@ -137,8 +137,7 @@ public class GitHubProfile {
         // Profile section
         sections.add(new ProfileSection("Profile", List.of(
                 new ProfileItem("Role", "Software Developer"),
-                new ProfileItem("Status", "I Understand it now"),
-                new ProfileItem("Twitter", "@lobz03")
+                new ProfileItem("Status", "I Understand it now")
 //                new ProfileItem("Portfolio", "#")
         )));
 
