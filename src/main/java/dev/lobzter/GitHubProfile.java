@@ -131,14 +131,13 @@ public class GitHubProfile {
                 new ProfileItem("OS", "Arch Linux"),
                 new ProfileItem("IDE", "Code OSS,IntelliJ"),
                 new ProfileItem("Languages", "Java, Python,TypeScript"),
-                new ProfileItem("Frameworks", "Express, Spring boot, Android Native")
+                new ProfileItem("Frameworks", "Express, SpringBoot, Android Native")
         )));
 
         // Profile section
         sections.add(new ProfileSection("Profile", List.of(
                 new ProfileItem("Role", "Software Developer"),
                 new ProfileItem("Status", "I Understand it now")
-//                new ProfileItem("Portfolio", "#")
         )));
 
         // GitHub section
