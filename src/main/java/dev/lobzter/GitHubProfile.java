@@ -131,7 +131,7 @@ public class GitHubProfile {
                 new ProfileItem("OS", "Arch Linux"),
                 new ProfileItem("IDE", "Code OSS,IntelliJ"),
                 new ProfileItem("Languages", "Java, kotlin,TypeScript"),
-                new ProfileItem("Frameworks", "Express, SpringBoot, Android Native","LibGdx")
+                new ProfileItem("Frameworks", "Express, SpringBoot, Android Native, LibGdx")
         )));
 
         // Profile section
