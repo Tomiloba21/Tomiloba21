@@ -130,8 +130,8 @@ public class GitHubProfile {
         sections.add(new ProfileSection(null, List.of(
                 new ProfileItem("OS", "Arch Linux"),
                 new ProfileItem("IDE", "Code OSS,IntelliJ"),
-                new ProfileItem("Languages", "Java, Python,TypeScript"),
-                new ProfileItem("Frameworks", "Express, SpringBoot, Android Native")
+                new ProfileItem("Languages", "Java, kotlin,TypeScript"),
+                new ProfileItem("Frameworks", "Express, SpringBoot, Android Native","LibGdx")
         )));
 
         // Profile section
