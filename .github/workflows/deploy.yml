@@ -1,10 +1,13 @@
-```yaml
 name: Build README.md
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 1 * *"
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -23,14 +26,18 @@ jobs:
           distribution: temurin
           java-version: '17'
 
+      - name: Cache Maven Dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-maven-
+
       - name: Verify Maven
         run: mvn -version
 
-      - name: Build with Maven
-        run: mvn -B compile
-
-      - name: Run Java application
-        run: mvn exec:java -Dexec.mainClass="dev.lobzter.GitHubProfile"
+      - name: Build and Run
+        run: mvn -B compile exec:java -Dexec.mainClass="dev.lobzter.GitHubProfile"
         env:
           API_LEAGUE_KEY: ${{ secrets.API_LEAGUE_KEY }}
           GH_API_TOKEN: ${{ secrets.GH_API_TOKEN }}
@@ -56,4 +63,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
