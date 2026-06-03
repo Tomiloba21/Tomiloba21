@@ -6,8 +6,6 @@ on:
 concurrency:
   group: pages
   cancel-in-progress: true
-# env:                                        ← remove this block once all
-#   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  ← actions are on Node 24 native
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,14 +14,14 @@ jobs:
       pages: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4          # watch for v5 release
+        uses: actions/checkout@v5        # ✅ Node 24 native
       - name: Set up JDK
-        uses: actions/setup-java@v4        # still Node 20 internally, no v5 yet
+        uses: actions/setup-java@v5      # ✅ Node 24 native
         with:
           distribution: temurin
           java-version: '17'
       - name: Cache Maven Dependencies
-        uses: actions/cache@v5             # ✅ Node 24 native
+        uses: actions/cache@v5
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
